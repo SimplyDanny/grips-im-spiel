@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grips im Spiel - Veranstaltungen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Grips im Spiel</h1>
+            <p class="subtitle">Veranstaltungen in der Stadtbibliothek Stuttgart</p>
+        </header>
+
+        <div class="description markdown-content">{description_html}</div>
+
+        <section class="events">
+            {events_html}
+        </section>
+
+        <div class="cta-section">
+            <h3>Kalender abonnieren</h3>
+            <p style="margin-bottom: 1rem; opacity: 0.8;">Lade die Veranstaltungen in deinen Kalender:</p>
+            <div class="cta-actions">
+                <a href="stadtbibliothek.ics" class="cta" download="stadtbibliothek.ics">📥 Kalender herunterladen</a>
+                <button type="button" class="cta cta-secondary" id="copy-calendar-url">🔗 Kalender-URL kopieren</button>
+            </div>
+            <p class="cta-feedback" id="copy-feedback" aria-live="polite"></p>
+            <p style="font-size: 0.85rem; opacity: 0.7; margin-top: 1rem;">
+                Du kannst diese Datei direkt in deinem Kalender (Google Calendar, Outlook, Apple Calendar, etc.)
+                importieren oder abonnieren.
+            </p>
+        </div>
+    </div>
+    <script src="copy_calendar.js" defer></script>
+</body>
+
+</html>
