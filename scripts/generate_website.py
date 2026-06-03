@@ -54,15 +54,15 @@ def build_events_html(upcoming_events):
     for event in upcoming_events:
         events_html += f"""        <article class="event">
             <div class="event-header">
-                <h2>{event["summary"]}</h2>
+                <h3>{event["summary"]}</h3>
                 <div class="event-meta">
                     <span class="date">📅 {event["date"]}</span>
                     <span class="time">🕐 {event["time"]}</span>
+                    {f'<span class="location">📍 {event["location"]}</span>' if event["location"] else ""}
                     {f'<span class="url">🔗 <a href="{event["url"]}" target="_blank" rel="noopener noreferrer">Zur Veranstaltung</a></span>' if event["url"] else ""}
                 </div>
             </div>
             <div class="event-content">
-                {f'<p class="location">📍 {event["location"]}</p>' if event["location"] else ""}
                 <div class="description markdown-content">{event["description_html"]}</div>
             </div>
         </article>

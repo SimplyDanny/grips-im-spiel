@@ -30,6 +30,17 @@ header h1 {
     color: #007bff;
 }
 
+header .markdown-header-content {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+h3 {
+    color: #007bff;
+}
+
 header .subtitle {
     font-size: 0.95rem;
     opacity: 0.7;
@@ -39,20 +50,19 @@ header .subtitle {
     background-color: #f5f5f5;
     padding: 1.5rem;
     border-radius: 8px;
-    margin-bottom: 2rem;
 }
 
 .events {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .event {
     background-color: #f9f9f9;
     border-left: 4px solid #007bff;
     border-radius: 8px;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0rem;
     transition: box-shadow 0.3s ease;
 }
 
@@ -61,6 +71,10 @@ header .subtitle {
 }
 
 .event-header {
+    margin-bottom: 0.2rem;
+}
+
+.event-header h3 {
     margin-bottom: 1rem;
 }
 
@@ -78,17 +92,22 @@ header .subtitle {
     opacity: 0.75;
 }
 
-.event-content p {
-    margin-bottom: 0.5rem;
+.event-meta .url {
+    color: #0056b3;
 }
 
-.event-content p:last-child {
-    margin-bottom: 0;
+.event-meta .url a {
+    color: inherit;
 }
 
-.location {
-    font-weight: 600;
-    opacity: 0.9;
+.event-meta .url a:link,
+.event-meta .url a:visited,
+.event-meta .url a:active {
+    color: inherit;
+}
+
+.event-meta .url a:hover {
+    text-decoration: none;
 }
 
 .markdown-content {
@@ -96,7 +115,7 @@ header .subtitle {
 }
 
 .markdown-content p {
-    margin-bottom: 0.75rem;
+    margin: 0 0 0.35rem;
 }
 
 .markdown-content p:last-child {
@@ -175,6 +194,14 @@ header .subtitle {
         color: #0d6efd;
     }
 
+    header .markdown-header-content {
+        background-color: #2a2a2a;
+    }
+
+    h3 {
+        color: #0d6efd;
+    }
+
     .description {
         background-color: #2a2a2a;
     }
@@ -194,6 +221,10 @@ header .subtitle {
 
     .event h2 {
         color: #0d6efd;
+    }
+
+    .event-meta .url {
+        color: #8bb8ff;
     }
 
     .cta-section {
