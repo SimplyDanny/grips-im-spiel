@@ -4,26 +4,18 @@ description: >
   Jeden Monat stellen wir ein neues Spiel vor, das in der Stadtbibliothek gespielt werden kann. Alle Veranstaltungen sind kostenlos und ohne Anmeldung. Für alle Spielebegeisterten ab 13 Jahren.
 
 events:
-  - summary: Grips im Spiel
-    location: Stadtbibliothek am Mailänder Platz Mailänder Platz 1, 70173 Stuttgart, Deutschland
+  - &event
+    summary: Grips im Spiel
+    location: Mailänder Platz 1, 70173 Stuttgart, Deutschland
     begin: 2026-05-08 18:00:00
     duration:
       minutes: 180
     description: |
-      Grips im Spiel
-
       Das Kennerspiel Seti und das Kartenspiel Castle Combo werden vorgestellt und gemeinsam gespielt. SETI bietet ein anspruchsvolles Weltraumabenteuer mit modularem Planetensystem, während Castle Combo als schnelles Kartenspiel glänzt, bei dem eine kleine Burg aus Figuren aufgebaut und viele Punkte gesammelt werden.
+    url: https://veranstaltungen-stadtbibliothek-stuttgart.de/index.php?zielgruppe=1&zweigstelle=ZB&id=24102
 
-      Weitere Informationen auf der [Webseite der Stadtbibliothek](https://veranstaltungen-stadtbibliothek-stuttgart.de/index.php?zielgruppe=1&zweigstelle=ZB&id=24102).
-
-  - summary: Grips im Spiel
-    location: Stadtbibliothek am Mailänder Platz Mailänder Platz 1, 70173 Stuttgart, Deutschland
+  - <<: *event
     begin: 2026-06-12 18:00:00
-    duration:
-      minutes: 180
     description: |
-      Grips im Spiel
-
       Wir werden eine Auswahl von "Kennerspielen des Jahres" auf der Ebene Leben (3.OG) im Max-Horkheimer-Kabinett vorstellen und gemeinsam spielen. Im Anschluss können auch andere Spiele der Stadtbibliothek ausprobiert werden.
-
-      Weitere Informationen auf der [Webseite der Stadtbibliothek](https://veranstaltungen-stadtbibliothek-stuttgart.de/index.php?zielgruppe=1&zweigstelle=ZB&id=24107).
+    url: https://veranstaltungen-stadtbibliothek-stuttgart.de/index.php?zielgruppe=1&zweigstelle=ZB&id=24107

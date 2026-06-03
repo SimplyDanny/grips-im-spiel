@@ -43,6 +43,7 @@ def format_event(event):
         "location": event.get("location", ""),
         "date": date_str,
         "time": time_str,
+        "url": event.get("url", ""),
         "description_html": render_markdown(event.get("description", "")),
     }
 
@@ -57,6 +58,7 @@ def build_events_html(upcoming_events):
                 <div class="event-meta">
                     <span class="date">📅 {event["date"]}</span>
                     <span class="time">🕐 {event["time"]}</span>
+                    {f'<span class="url">🔗 <a href="{event["url"]}" target="_blank" rel="noopener noreferrer">Zur Veranstaltung</a></span>' if event["url"] else ""}
                 </div>
             </div>
             <div class="event-content">
