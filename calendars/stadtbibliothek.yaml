@@ -1,7 +1,9 @@
 name: Stadtbibliothek Stuttgart
 timezone: Europe/Berlin
 description: >
-  Jeden Monat wird ein neues Spiel vorgestellt, das in der Stadtbibliothek gespielt werden kann. Alle Veranstaltungen sind **kostenlos und ohne Anmeldung**. Für alle Spielebegeisterten ab 13 Jahren. Gespielt wird im **Max-Horkheimer-Kabinett auf der Ebene Leben (3.OG)** der Stadtbibliothek am Mailänder Platz.
+  Jeden Monat wird ein neues Spiel vorgestellt, das in der Stadtbibliothek gespielt werden kann. Alle Veranstaltungen
+  sind **kostenlos und ohne Anmeldung**. Für alle Spielebegeisterten ab 13 Jahren. Gespielt wird im
+  **Max-Horkheimer-Kabinett auf der Ebene Leben (3.OG)** der Stadtbibliothek am Mailänder Platz.
 
 events:
   - &event
@@ -10,36 +12,39 @@ events:
     begin: 2026-05-08 18:00:00
     duration:
       minutes: 180
-    description: |
-      Das Kennerspiel Seti und das Kartenspiel Castle Combo werden vorgestellt und gemeinsam gespielt. SETI bietet ein anspruchsvolles Weltraumabenteuer mit modularem Planetensystem, während Castle Combo als schnelles Kartenspiel glänzt, bei dem eine kleine Burg aus Figuren aufgebaut und viele Punkte gesammelt werden.
+    description: >
+      Das Kennerspiel Seti und das Kartenspiel Castle Combo werden vorgestellt und gemeinsam gespielt. SETI bietet ein
+      anspruchsvolles Weltraumabenteuer mit modularem Planetensystem, während Castle Combo als schnelles Kartenspiel
+      glänzt, bei dem eine kleine Burg aus Figuren aufgebaut und viele Punkte gesammelt werden.
     url: https://veranstaltungen-stadtbibliothek-stuttgart.de/index.php?zielgruppe=1&zweigstelle=ZB&id=24102
 
   - <<: *event
     begin: 2026-06-12 18:00:00
-    description: |
-      Wir werden eine Auswahl von "Kennerspielen des Jahres" auf der Ebene Leben (3.OG) im Max-Horkheimer-Kabinett vorstellen und gemeinsam spielen. Im Anschluss können auch andere Spiele der Stadtbibliothek ausprobiert werden.
+    description: >
+      Wir werden eine Auswahl von "Kennerspielen des Jahres" auf der Ebene Leben (3.OG) im Max-Horkheimer-Kabinett
+      vorstellen und gemeinsam spielen. Im Anschluss können auch andere Spiele der Stadtbibliothek ausprobiert werden.
     url: https://veranstaltungen-stadtbibliothek-stuttgart.de/index.php?zielgruppe=1&zweigstelle=ZB&id=24107
 
   - <<: *event
     begin: 2026-09-18 18:00:00
-    description: |
+    description: >
       Kennerspiel oder Spiel des Jahres 2026
     url: null
 
   - <<: *event
     begin: 2026-10-16 18:00:00
-    description: |
+    description: >
       Kennerspiel oder Spiel des Jahres 2026
     url: null
 
   - <<: *event
     begin: 2026-11-20 18:00:00
-    description: |
+    description: >
       Spiel der Nominierungsliste Kennerspiel 2026
     url: null
 
   - <<: *event
     begin: 2026-12-11 18:00:00
-    description: |
+    description: >
       Spiel der Nominierungsliste Kennerspiel 2026
     url: null
