@@ -1,7 +1,7 @@
 name: Stadtbibliothek Stuttgart
 timezone: Europe/Berlin
 description: >
-  Jeden Monat wird ein neues Spiel vorgestellt, das in der Stadtbibliothek gespielt werden kann. Alle Veranstaltungen sind kostenlos und ohne Anmeldung. Für alle Spielebegeisterten ab 13 Jahren.
+  Jeden Monat wird ein neues Spiel vorgestellt, das in der Stadtbibliothek gespielt werden kann. Alle Veranstaltungen sind **kostenlos und ohne Anmeldung**. Für alle Spielebegeisterten ab 13 Jahren. Gespielt wird im **Max-Horkheimer-Kabinett auf der Ebene Leben (3.OG)** der Stadtbibliothek am Mailänder Platz.
 
 events:
   - &event
